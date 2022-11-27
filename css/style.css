@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: grey;
+    position: sticky;
+    width: 100%;
+}
+
+.logo h2 {
+    padding: 10px;
+    font-size: 40px;
+}
+
+.navbar div h3 {
+    padding: 10px;
+}
+
+
+
+
+
+.moi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.passion {
+    padding: 5%;
+}
+
+.situation {
+    padding: 5%;
+}
+
+.situation  p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+.project h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.album {
+   padding: 2%; 
+}
+
+.album {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.album img {
+    border-radius: 100px;
+    padding: 2%;
+    width: 49%;
+    min-height: 49%;
+}
+
+
+
+
+.col-lg-4 {
+    text-align: center;
+}
+
+.row img {
+    width: 100%;
+}
+
+
+
+.figma {
+    display: grid;
+}
+
+.figma img {
+    border-radius: 100px;
+    width: 50%;
+}
